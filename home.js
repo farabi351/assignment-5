@@ -227,7 +227,7 @@ document.getElementById("id-fire-copy").addEventListener("click",function(e){
 document.getElementById("id-ambulance-copy").addEventListener("click",function(e){
     e.preventDefault()
     //console.log("i am from national emergency copy button")
-    alert("Number has been copied 999")
+    alert("Number has been copied 1994-999999")
 
     //copy functionality that copy the number inside in national emergency number
     //when the copy is clicked the card national emergency number is accessed , then
@@ -247,7 +247,7 @@ document.getElementById("id-ambulance-copy").addEventListener("click",function(e
 document.getElementById("id-women-copy").addEventListener("click",function(e){
     e.preventDefault()
     //console.log("i am from national emergency copy button")
-    alert("Number has been copied 999")
+    alert("Number has been copied 109")
 
     //copy functionality that copy the number inside in national emergency number
     //when the copy is clicked the card national emergency number is accessed , then
@@ -268,7 +268,7 @@ document.getElementById("id-women-copy").addEventListener("click",function(e){
 document.getElementById("id-anti-copy").addEventListener("click",function(e){
     e.preventDefault()
     //console.log("i am from national emergency copy button")
-    alert("Number has been copied 999")
+    alert("Number has been copied 106")
 
     //copy functionality that copy the number inside in national emergency number
     //when the copy is clicked the card national emergency number is accessed , then
@@ -288,7 +288,7 @@ document.getElementById("id-anti-copy").addEventListener("click",function(e){
 document.getElementById("id-electricity-copy").addEventListener("click",function(e){
     e.preventDefault()
     //console.log("i am from national emergency copy button")
-    alert("Number has been copied 999")
+    alert("Number has been copied 16216")
 
     //copy functionality that copy the number inside in national emergency number
     //when the copy is clicked the card national emergency number is accessed , then
@@ -308,7 +308,7 @@ document.getElementById("id-electricity-copy").addEventListener("click",function
 document.getElementById("id-brac-copy").addEventListener("click",function(e){
     e.preventDefault()
     //console.log("i am from national emergency copy button")
-    alert("Number has been copied 999")
+    alert("Number has been copied 16445")
 
     //copy functionality that copy the number inside in national emergency number
     //when the copy is clicked the card national emergency number is accessed , then
@@ -328,7 +328,7 @@ document.getElementById("id-brac-copy").addEventListener("click",function(e){
 document.getElementById("id-bangladesh-copy").addEventListener("click",function(e){
     e.preventDefault()
     //console.log("i am from national emergency copy button")
-    alert("Number has been copied 999")
+    alert("Number has been copied 163")
 
     //copy functionality that copy the number inside in national emergency number
     //when the copy is clicked the card national emergency number is accessed , then
@@ -365,14 +365,14 @@ document.getElementById("id-national-call").addEventListener("click",function(e)
   const coinButton = parseInt(document.getElementById("total-coin").innerText);
   
   if(coinButton<=0){
-    alert("no coin");
+    alert("❌ You Dont Have enough Coins.!\n You Need At Least 20 Coins To Make A Call");
     return;
 
   }
   
   
   
-  alert("Calling National Emergency Service 999...")
+  alert("📞 Calling National Emergency Number 999...")
   const total = coinButton-20;
 
   
@@ -411,14 +411,14 @@ document.getElementById("id-police-call").addEventListener("click",function(e){
   const coinButton = parseInt(document.getElementById("total-coin").innerText);
   
   if(coinButton<=0){
-    alert("no coin");
+    alert("❌ You Dont Have enough Coins.!\n You Need At Least 20 Coins To Make A Call");
     return;
 
   }
   
   
   
-  alert("Calling National Emergency Service 999...")
+  alert("📞 Calling Police Helpline Number 999...")
   const total = coinButton-20;
 
   
@@ -456,14 +456,14 @@ document.getElementById("id-fire-call").addEventListener("click",function(e){
   const coinButton = parseInt(document.getElementById("total-coin").innerText);
   
   if(coinButton<=0){
-    alert("no coin");
+    alert("❌ You Dont Have enough Coins.!\n You Need At Least 20 Coins To Make A Call");
     return;
 
   }
   
   
   
-  alert("Calling National Emergency Service 999...")
+  alert("📞 Calling Fire Service Number 999...")
   const total = coinButton-20;
 
   
@@ -501,14 +501,14 @@ document.getElementById("id-ambulance-call").addEventListener("click",function(e
   const coinButton = parseInt(document.getElementById("total-coin").innerText);
   
   if(coinButton<=0){
-    alert("no coin");
+    alert("❌ You Dont Have enough Coins.!\n You Need At Least 20 Coins To Make A Call");
     return;
 
   }
   
   
  
-  alert("Calling National Emergency Service 999...")
+  alert("📞 Calling Ambulance Service 1994-999999...")
   const total = coinButton-20;
 
   
@@ -545,14 +545,14 @@ document.getElementById("id-women-call").addEventListener("click",function(e){
   const coinButton = parseInt(document.getElementById("total-coin").innerText);
   
   if(coinButton<=0){
-    alert("no coin");
+    alert("❌ You Dont Have enough Coins.!\n You Need At Least 20 Coins To Make A Call");
     return;
 
   }
   
   
   
-  alert("Calling National Emergency Service 999...")
+  alert("📞 Calling Women and Child Helpline 109...")
   const total = coinButton-20;
 
   
@@ -590,14 +590,14 @@ document.getElementById("id-anti-call").addEventListener("click",function(e){
   const coinButton = parseInt(document.getElementById("total-coin").innerText);
   
   if(coinButton<=0){
-    alert("no coin");
+    alert("❌ You Dont Have enough Coins.!\n You Need At Least 20 Coins To Make A Call");
     return;
 
   }
   
   
   
-  alert("Calling National Emergency Service 999...")
+  alert("📞 Calling Anti Corruption Helpline 106...")
   const total = coinButton-20;
 
   
@@ -635,14 +635,14 @@ document.getElementById("id-electricity-call").addEventListener("click",function
   const coinButton = parseInt(document.getElementById("total-coin").innerText);
   
   if(coinButton<=0){
-    alert("no coin");
+    alert("❌ You Dont Have enough Coins.!\n You Need At Least 20 Coins To Make A Call");
     return;
 
   }
   
   
   
-  alert("Calling National Emergency Service 999...")
+  alert("📞 Calling Electricity Helpline 16216...")
   const total = coinButton-20;
 
   
@@ -679,14 +679,14 @@ document.getElementById("id-brac-call").addEventListener("click",function(e){
   const coinButton = parseInt(document.getElementById("total-coin").innerText);
   
   if(coinButton<=0){
-    alert("no coin");
+    alert("❌ You Dont Have enough Coins.!\n You Need At Least 20 Coins To Make A Call");
     return;
 
   }
   
   
  
-  alert("Calling National Emergency Service 999...")
+  alert("📞 Calling Brac Helpline 16445...")
   const total = coinButton-20;
 
   
@@ -725,14 +725,14 @@ document.getElementById("id-bangladesh-call").addEventListener("click",function(
   const coinButton = parseInt(document.getElementById("total-coin").innerText);
   
   if(coinButton<=0){
-    alert("no coin");
+    alert("❌ You Dont Have enough Coins.!\n You Need At Least 20 Coins To Make A Call");
     return;
 
   }
   
   
   
-  alert("Calling National Emergency Service 999...")
+  alert("📞 Calling Bangladesh Railway Helpline 163...")
   const total = coinButton-20;
   
 
@@ -770,7 +770,7 @@ document.getElementById("id-national-call").addEventListener("click",function(){
     for (const data of callHistory){
         const div=document.createElement("div")
         div.innerHTML=`
-        <div id="call-history-container" class="flex justify-between items-center border-red-500 border-10 p-4 bg-[#FAFAFA] mb-2">
+        <div id="call-history-container" class="flex justify-between items-center border-red-500 border- p-4 bg-[#FAFAFA] mb-2">
                         <div>
                             <h1 class="font-bold text-black">${data.name}</h1>
                             <h1 class="font-semibold text-gray-900">${data.number}</h1>
@@ -799,7 +799,7 @@ document.getElementById("id-police-call").addEventListener("click",function(){
     for (const data of callHistory){
         const div=document.createElement("div")
         div.innerHTML=`
-        <div id="call-history-container" class="flex justify-between items-center border-red-500 border-10 p-4 bg-[#FAFAFA] mb-2">
+        <div id="call-history-container" class="flex justify-between items-center border-red-500 border- p-4 bg-[#FAFAFA] mb-2">
                         <div>
                             <h1 class="font-bold text-black">${data.name}</h1>
                             <h1 class="font-semibold text-gray-900">${data.number}</h1>
@@ -827,7 +827,7 @@ document.getElementById("id-fire-call").addEventListener("click",function(){
     for (const data of callHistory){
         const div=document.createElement("div")
         div.innerHTML=`
-        <div id="call-history-container" class="flex justify-between items-center border-red-500 border-10 p-4 bg-[#FAFAFA] mb-2">
+        <div id="call-history-container" class="flex justify-between items-center border-red-500 border- p-4 bg-[#FAFAFA] mb-2">
                         <div>
                             <h1 class="font-bold text-black">${data.name}</h1>
                             <h1 class="font-semibold text-gray-900">${data.number}</h1>
@@ -855,7 +855,7 @@ document.getElementById("id-ambulance-call").addEventListener("click",function()
     for (const data of callHistory){
         const div=document.createElement("div")
         div.innerHTML=`
-        <div id="call-history-container" class="flex justify-between items-center border-red-500 border-10 p-4 bg-[#FAFAFA] mb-2">
+        <div id="call-history-container" class="flex justify-between items-center border-red-500 border- p-4 bg-[#FAFAFA] mb-2">
                         <div>
                             <h1 class="font-bold text-black">${data.name}</h1>
                             <h1 class="font-semibold text-gray-900">${data.number}</h1>
@@ -883,7 +883,7 @@ document.getElementById("id-women-call").addEventListener("click",function(){
     for (const data of callHistory){
         const div=document.createElement("div")
         div.innerHTML=`
-        <div id="call-history-container" class="flex justify-between items-center border-red-500 border-10 p-4 bg-[#FAFAFA] mb-2">
+        <div id="call-history-container" class="flex justify-between items-center border-red-500 border- p-4 bg-[#FAFAFA] mb-2">
                         <div>
                             <h1 class="font-bold text-black">${data.name}</h1>
                             <h1 class="font-semibold text-gray-900">${data.number}</h1>
@@ -911,7 +911,7 @@ document.getElementById("id-anti-call").addEventListener("click",function(){
     for (const data of callHistory){
         const div=document.createElement("div")
         div.innerHTML=`
-        <div id="call-history-container" class="flex justify-between items-center border-red-500 border-10 p-4 bg-[#FAFAFA] mb-2">
+        <div id="call-history-container" class="flex justify-between items-center border-red-500 border- p-4 bg-[#FAFAFA] mb-2">
                         <div>
                             <h1 class="font-bold text-black">${data.name}</h1>
                             <h1 class="font-semibold text-gray-900">${data.number}</h1>
@@ -939,7 +939,7 @@ document.getElementById("id-electricity-call").addEventListener("click",function
     for (const data of callHistory){
         const div=document.createElement("div")
         div.innerHTML=`
-        <div id="call-history-container" class="flex justify-between items-center border-red-500 border-10 p-4 bg-[#FAFAFA] mb-2">
+        <div id="call-history-container" class="flex justify-between items-center border-red-500 border- p-4 bg-[#FAFAFA] mb-2">
                         <div>
                             <h1 class="font-bold text-black">${data.name}</h1>
                             <h1 class="font-semibold text-gray-900">${data.number}</h1>
@@ -968,7 +968,7 @@ document.getElementById("id-brac-call").addEventListener("click",function(){
     for (const data of callHistory){
         const div=document.createElement("div")
         div.innerHTML=`
-        <div id="call-history-container" class="flex justify-between items-center border-red-500 border-10 p-4 bg-[#FAFAFA] mb-2">
+        <div id="call-history-container" class="flex justify-between items-center border-red-500 border- p-4 bg-[#FAFAFA] mb-2">
                         <div>
                             <h1 class="font-bold text-black">${data.name}</h1>
                             <h1 class="font-semibold text-gray-900">${data.number}</h1>
@@ -1000,7 +1000,7 @@ document.getElementById("id-bangladesh-call").addEventListener("click",function(
     for (const data of callHistory){
         const div=document.createElement("div")
         div.innerHTML=`
-        <div id="call-history-container" class="flex justify-between items-center border-red-500 border-10 p-4 bg-[#FAFAFA] mb-2">
+        <div id="call-history-container" class="flex justify-between items-center border-red-500 border- p-4 bg-[#FAFAFA] mb-2">
                         <div>
                             <h1 class="font-bold text-black">${data.name}</h1>
                             <h1 class="font-semibold text-gray-900">${data.number}</h1>
